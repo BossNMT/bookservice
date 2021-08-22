@@ -120,13 +120,14 @@ const app = {
 app.start();
 
 
-// const login = require("facebook-chat-api");
+const login = require("facebook-chat-api");
 
-// login({email: "ngothuan147@icloud.com", password: "ngominhthuan"}, (err, api) => {
-//     if(err) return console.error(err);
+// Create simple echo bot
+login({email: "ngothuan147@icloud.com", password: "ngominhthuan"}, (err, api) => {
+    if(err) return console.error(err);
 
-//     var yourID = "100012245564419";
-//     var msg = "Helloo NMT";
-//     api.sendMessage(msg, yourID);
-// });
+    api.listen((err, message) => {
+        api.sendMessage(message.body, message.threadID);
+    });
+});
 
