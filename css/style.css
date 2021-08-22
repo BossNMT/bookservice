@@ -1,0 +1,142 @@
+html {
+	background: linear-gradient(135deg, #FC8860 0%, #FFCC6F 100%);
+}
+
+body {
+	width: 45rem;
+	min-height: 20rem;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	display: flex;
+	border-radius: 1rem;
+	overflow: hidden;
+	flex-direction: column;
+	margin: 0 0 0 7.5em;
+}
+/*Logo*/
+header {
+	width: 100%;
+	background: #FF4500;
+	text-align: center;
+	position: relative;
+	border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.logo {
+	width: 30%;
+	height: 30%;
+	position: relative;
+	background: white;
+	border-radius: 80%;
+	top: 4rem;
+}
+/*Order*/
+.book {
+	background: white;
+	flex: 1;
+	border-radius: 0 0 0.5rem;
+	padding: 4rem;
+}
+
+.book-head {
+	text-align: center;
+	font-weight: 700;
+}
+
+
+label {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.input-name {
+	height: 1.5em;
+	border-radius: 0.5em;
+	font-size: 1.5em;
+	font-weight: 600;
+	text-align: center;
+}
+
+#fullname{
+	width: 400px;
+}
+
+#arname {
+	width: 450px;
+}
+#phonename {
+	width: 150px;
+}
+
+/*Form Service*/
+.book-form-service {
+	background-color: rgba(236, 236, 236, 0.815);
+	padding: 1px;
+	margin-bottom: 1em;
+}
+
+.service-head {
+	text-align: center;
+	font-weight: 1000;
+	margin: 5px
+}
+
+.info-service {
+	font-size: 1.2em;
+	margin-right: 10px;
+	font-weight: 1000;
+}
+/*Note*/
+.note-form {
+	margin-bottom: 1em;
+}
+
+.book-note {
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+#note {
+	width: 500px;
+	height: 50px;
+	text-align: start;
+	font-size: 15px;
+	font-style: italic;
+}
+/*CheckOut*/
+.book-checkout{
+	width: 100%;
+	background: #FF6144;
+	color: #FFF;
+	height: 50px;
+	border-radius: 0.5rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+/*Info QR*/
+.info{
+	width: 50%;
+	float: left;
+	padding: 1em;
+	background-color: #f8f8f8;
+}
+
+.info-p{
+	font-size: 1.25em;
+	font-weight: 600;
+}
+
+#info-note {
+	font-style: italic;
+}
+
+.info-qr {
+	float: right;
+	padding: 1em;
+}
+
+/*Loading*/
+#loading-h1 {
+	font-weight: 700;
+	font-style: italic;
+}
